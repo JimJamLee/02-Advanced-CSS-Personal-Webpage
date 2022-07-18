@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("../images/header-background.jpg");
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-flex;
+    font-size: 48px;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.header div ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.header div ul li {
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.content {
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.content p {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.profile-pic {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+.about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("../images/section-background.jpg");
+    color: #ffffff;
+}
+
+.my-work {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("../images/section-background.jpg");
+    color: #ffffff;
+}
+
+.projects-layout {
+    display: flex;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 25px;
+    gap: 20px;
+}
+
+.projects-layout a {
+    flex-grow: 1;
+    flex: 1;
+}
+.project1 {
+    background-image: url("../images/encyclopedia.jpg");
+    background-size: cover;
+    height: 200px;
+    font-size: 25px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-bottom: 25px;
+}
+
+.project2 {
+    background-image: url("../images/calculator.jpg");
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+}
+
+.project3 {
+    background-image: url("../images/weather-report.jpg");
+    background-size: cover;
+    height: 200px;
+}
+
+.project4 {
+    background-image: url("../images/wordle-recreation.jpg");
+    background-size: cover;
+    height: 200px;
+}
+
+.project5 {
+    background-image: url("../images/led-wall.jpg");
+    background-size: cover;
+    height: 200px;
+}
+
+.footer {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("../images/header-background.jpg");
+    color: #ffffff;
+}
+
+.footer h2 {
+    font-size: 36px;
+}
+.contact-me ul {
+    display: flex;
+}
+.contact-me ul li {
+    list-style-type: none;
+    margin: 20px 40px;
+    font-size: 20px;
+    flex-grow: 1;
+    flex: 1;    
+}
+
+@media screen and (max-width: 992px) {
+    .header {
+        padding: 60px;
+    }
+
+    .header div ul {
+        flex-direction: column;
+    }
+   
+    .projects-layout {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+        
+    .contact-me ul {
+        flex-direction: column;
+    }
+}
