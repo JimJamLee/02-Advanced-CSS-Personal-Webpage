@@ -74,4 +74,4 @@ The following image shows the web application's appearance and functionality:
 
 The following is a link to the deployed application in GitHub pages.
 
-[James Li Challenge 02: Advanced CSS](https://jimjamlee.github.io/01-HTML-CSS-Git-Challenge/#social-media-marketing)
+[James Li Challenge 02: Advanced CSS](https://jimjamlee.github.io/02-Advanced-CSS-Personal-Webpage/)
